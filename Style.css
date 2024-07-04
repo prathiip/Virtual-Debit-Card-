@@ -21,10 +21,14 @@ body {
     margin-top:8%;
 }
 
-#safe
-{
-    position:fixed;
-    bottom:3%;
+#safe {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #fff; /* optional: add a background color */
+  padding: 10px; /* optional: add some padding */
 }
 
 h3
